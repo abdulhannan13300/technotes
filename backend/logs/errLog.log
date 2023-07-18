@@ -1,0 +1,12 @@
+20230615	10:19:46	92029edb-16d4-4a49-819e-8d086fb1c037	Error: Not allowed by CORS	OPTIONS	/	https://www.google.com
+20230615	10:19:47	6c4245d2-cf1e-4410-933b-89b6a0a93b36	Error: Not allowed by CORS	GET	/	https://www.google.com
+20230615	10:20:47	8d1fa836-8d90-4faf-bf91-363cd933fa2d	Error: Not allowed by CORS	OPTIONS	/	https://www.google.com
+20230615	10:20:47	775a3b35-cd4a-4994-bcbf-fdcb1749f461	Error: Not allowed by CORS	GET	/	https://www.google.com
+20230615	10:21:43	89d4275f-1ed5-4cb2-ba75-18438d7307d7	Error: Not allowed by CORS	OPTIONS	/	https://www.google.com
+20230615	10:21:43	4cb37f80-39cf-4402-ac85-a8df0c3b55da	Error: Not allowed by CORS	GET	/	https://www.google.com
+20230616	17:15:52	dc61d723-584c-4c18-888f-179d98b8c47f	SyntaxError: Unexpected token } in JSON at position 46	POST	/users	undefined
+20230616	17:19:50	b8f8158b-a213-41c8-be95-046f336d4f80	Error: Cannot set headers after they are sent to the client	PATCH	/users	undefined
+20230617	10:08:54	ea4299c0-b46d-4eef-a93f-e9af1f8110be	CastError: Cast to ObjectId failed for value "648c4a77c0a1eb80c85e87a" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20230617	13:04:54	81da2a9b-9283-4f92-a205-4f20a46a774b	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "abdul" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230617	13:05:59	f95ff1db-0678-49bd-8e97-64e8e52a545c	SyntaxError: Unexpected token } in JSON at position 43	POST	/notes	undefined
+20230617	13:06:19	ee0c833a-3be4-4822-9119-514747a73a6c	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "abdul" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
